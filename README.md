@@ -61,3 +61,9 @@ docker compose down
 ### updated dockerfile and compose
 - bundled frontned and backend, frontend served as static by express
 - compose by: `docker compose up --build`, http://localhost:3000 (app),  http://localhost:8080 (db admin)
+### publish image to dockerhub
+- `docker build -t <DOCKER_USERNAME>/<IMAGE_NAME> .` `docker buildx build --platform linux/amd64 -t  <DOCKER_USERNAME>/<IMAGE_NAME>.`
+- `docker push <DOCKER_USERNAME>/<IMAGE_NAME>`
+### deploy to railway
+
+
