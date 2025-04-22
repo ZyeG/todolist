@@ -54,3 +54,10 @@ When you're done, simply remove the containers by running the following command:
 ```
 docker compose down
 ```
+
+
+# updated to angular
+### rewrite react frontend in angular
+### updated dockerfile and compose
+- bundled frontned and backend, frontend served as static by express
+- compose by: `docker compose up --build`, http://localhost:3000 (app),  http://localhost:8080 (db admin)
