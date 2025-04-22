@@ -65,5 +65,5 @@ docker compose down
 - `docker build -t <DOCKER_USERNAME>/<IMAGE_NAME> .` `docker buildx build --platform linux/amd64 -t  <DOCKER_USERNAME>/<IMAGE_NAME>.`
 - `docker push <DOCKER_USERNAME>/<IMAGE_NAME>`
 ### deploy to railway
-
+`https://todolist-production-2f40.up.railway.app/`
 
